@@ -1,0 +1,14 @@
+LOG_LEVEL           debug                       ## off - debug - info - error - critical
+SERVER_PORT         5555
+
+## Specify if the server will respond to the client requests.
+SERVER_RESPONDS    true                        ## true / false
+
+## Specify the max message size the server expects from the client in bytes
+MAX_MSG_SIZE       1024 
+
+# Specify the threadpool size (Only works for threadpool server)
+THREADPOOL_SIZE    500
+
+# Specify the processpool size (Only works for processPool server)
+PROCESSPOOL_SIZE   2
